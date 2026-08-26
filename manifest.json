@@ -1,0 +1,36 @@
+{
+  "name": "Tradewire — Big Tech Skilled-Trade Workforce Pipeline",
+  "short_name": "Tradewire",
+  "description": "Dashboard tracking hyperscaler investments in union-backed skilled-trade workforce pipelines driven by data-center demand.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0d1117",
+  "theme_color": "#f5a623",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
