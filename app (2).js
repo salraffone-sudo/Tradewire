@@ -84,12 +84,12 @@
      ============================================================ */
   function renderKPIs(){
     const cards = [
-      { label:"Total disclosed funding", value:fmtMoney(D.total_disclosed_funding_usd), foot:"Committed; deduplicated", accent:"var(--color-redline)" },
+      { label:"Total disclosed funding", value:fmtMoney(D.total_disclosed_funding_usd), foot:"Committed; deduplicated", accent:"var(--color-primary)" },
       { label:"Initiatives tracked", value:INITS.length, foot:"9 organizations", accent:"var(--color-accent-blue)" },
       { label:"Organizations", value:new Set(INITS.map(i=>i.company)).size, foot:"Hyperscalers + investors", accent:"var(--color-accent-blue)" },
-      { label:"Workers trained (actual)", value:fmtNum(D.workers_actual), foot:"Graduates & enrollees", accent:"var(--color-aws)" },
+      { label:"Workers trained (actual)", value:fmtNum(D.workers_actual), foot:"Graduates & enrollees", accent:"var(--color-primary)" },
       { label:"Workers targeted (goals)", value:fmtNum(D.workers_projected), foot:"Stated multi-year goals", accent:"var(--color-aws)" },
-      { label:"States impacted", value:D.regional_impact.length, foot:"Data-center regions", accent:"var(--color-aws)" },
+      { label:"States impacted", value:D.regional_impact.length, foot:"Data-center regions", accent:"var(--color-primary)" },
     ];
     document.getElementById("kpiRow").innerHTML = cards.map(c=>`
       <div class="kpi" style="--kpi-accent:${c.accent}">
@@ -341,8 +341,8 @@
   /* ---- Theme ---- */
   (function(){
     const t=document.querySelector("[data-theme-toggle]"), r=document.documentElement;
-    let d=r.getAttribute("data-theme")||(matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light");
-    r.setAttribute("data-theme",d);
+    let d=matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light";
+    if(d==="light") r.setAttribute("data-theme","light");
     function setIcon(){
       t.innerHTML = d==="dark"
         ? '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>'

@@ -1,5 +1,4 @@
-window.DATASET = window.DATASET || {};
-var __DATASET_TMP = {
+const DATASET = {
   "last_updated": "2026-08-25",
   "total_disclosed_funding_usd": 266110000,
   "total_committed_funding_usd": 266110000,
@@ -1317,4 +1316,3 @@ var __DATASET_TMP = {
     }
   ]
 };
-Object.assign(window.DATASET, __DATASET_TMP);

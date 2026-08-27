@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <title>Tradewire by OAC — Big Tech Skilled-Trade Workforce Pipeline</title>
+  <link rel="stylesheet" href="_ds/oac-design-system-d73471cf-1b62-492b-b263-cdf542d53467/tokens/fonts.css">
+  <link rel="stylesheet" href="_ds/oac-design-system-d73471cf-1b62-492b-b263-cdf542d53467/tokens/colors.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js"></script>
+</helmet>
+<div class="shell">
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true" style="border-radius: 6px">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 6l5 6-5 6M14 6l5 6-5 6"></path></svg>
+      </span>
+      <div class="brand-text">
+        <h1>Tradewire<span class="by">by</span><span class="oac-lockup"><img class="on-light" src="assets/oac-logomark-black.png" alt="OAC"><img class="on-dark" src="assets/oac-logomark-white.png" alt="OAC" style="align-self: stretch"></span></h1>
+        <div class="sub">Big Tech · Skilled-Trade Workforce Pipelines</div>
+      </div>
+    </div>
+    <div class="topbar-spacer"></div>
+    <span class="meta-chip"><span class="dot"></span><span id="lastUpdated">Live dataset</span></span>
+    <button class="theme-toggle" data-theme-toggle="" aria-label="Switch to light mode">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path></svg>
+    </button>
+  </header>
+
+  <section class="kpi-row" id="kpiRow" aria-label="Key metrics"></section>
+
+  <section class="filters" aria-label="Filters">
+    <div class="filter-head">
+      <span class="filter-title">Filter · <b id="filterCount">0 active</b></span>
+      <button class="reset-btn" id="resetBtn">Reset all</button>
+    </div>
+    <div class="filter-grid">
+      <div class="filter-group">
+        <label>Company</label>
+        <div class="chip-row" id="fCompany"></div>
+      </div>
+      <div class="filter-group">
+        <label>Trade type</label>
+        <div class="chip-row" id="fTrade"></div>
+      </div>
+      <div class="filter-group">
+        <label>Program level</label>
+        <div class="chip-row" id="fProgram"></div>
+      </div>
+      <div class="filter-group">
+        <label>State / region</label>
+        <div class="chip-row" id="fState"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="main-grid">
+    <main>
+      <div class="section-head">
+        <h2>Initiatives &amp; Partnerships</h2>
+        <span class="count" id="initCount"></span>
+      </div>
+      <div class="init-list" id="initList"></div>
+    </main>
+
+    <aside>
+      <div class="panel">
+        <h3><span class="h-ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path></svg></span>Regional impact by state</h3>
+        <div class="state-grid" id="stateGrid" style="border-radius: 4px"></div>
+        <div class="state-note" id="stateNote">Hover or click a state to see the data-center cluster and hyperscaler drivers. Click again to filter the list.</div>
+      </div>
+
+      <div class="panel">
+        <h3><span class="h-ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"></path><path d="M14 2v6h6"></path></svg></span>Trades targeted</h3>
+        <div class="trade-list" id="tradeList"></div>
+      </div>
+
+      <div class="panel">
+        <h3><span class="h-ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 100 7h5a3.5 3.5 0 110 7H6"></path></svg></span>Funding by company</h3>
+        <div class="company-bars" id="companyBars"></div>
+      </div>
+
+      <div class="panel">
+        <h3><span class="h-ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><path d="M20 8v6M23 11h-6"></path></svg></span>Apprenticeship vs journey-level</h3>
+        <div class="prog-split" id="progSplit"></div>
+        <div class="prog-legend" id="progLegend"></div>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="foot-note">
+    <p><strong>About this dashboard.</strong> Tradewire tracks how hyperscaler data-center demand is reshaping Big Tech investment in union-backed skilled-trade workforce pipelines. Every dollar amount, training center, state, and worker count is sourced — values not publicly disclosed are shown as "not disclosed" rather than estimated. Funding totals reflect point-confirmed committed and pledged amounts; the true aggregate pledge total is higher where companies disclose only a program description.</p>
+    <p>Program-level definitions: <em>Apprenticeship</em> = registered/new apprentice slots; <em>Journey-level</em> = upskilling existing journeymen; <em>Pre-apprenticeship</em> = recruitment and awareness pipelines; <em>Both</em> = program spans apprentice recruitment and journey-level upskilling.</p>
+    <div class="src-list" id="allSources"></div>
+  </footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;theme&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;dark&quot;,&quot;light&quot;],&quot;default&quot;:&quot;dark&quot;,&quot;tsType&quot;:&quot;'dark' | 'light'&quot;,&quot;section&quot;:&quot;Appearance&quot;},&quot;compactCards&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Appearance&quot;},&quot;showSourceList&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Content&quot;}}">
+class Component extends DCLogic {
+  componentDidMount() {
+    const root = document.documentElement;
+    root.setAttribute("data-theme", this.props.theme ?? "dark");
+    root.setAttribute("data-density", this.props.compactCards ? "compact" : "default");
+    root.setAttribute("data-sources", this.props.showSourceList === false ? "hidden" : "shown");
+    if (!document.getElementById("tw-app")) {
+      const s = document.createElement("script");
+      s.id = "tw-app";
+      s.src = "app.js";
+      document.body.appendChild(s);
+    }
+  }
+  componentDidUpdate() {
+    const root = document.documentElement;
+    root.setAttribute("data-theme", this.props.theme ?? "dark");
+    root.setAttribute("data-density", this.props.compactCards ? "compact" : "default");
+    root.setAttribute("data-sources", this.props.showSourceList === false ? "hidden" : "shown");
+  }
+}
+</script>
+</body>
+</html>
