@@ -1,0 +1,57 @@
+{
+  "run_date": "2026-10-01",
+  "new": [
+    {
+      "id": "init-19",
+      "company": "Google",
+      "company_short": "Google",
+      "program_name": "Google.org skilled trades commitment for veterans and military families (25,000 goal)",
+      "partner_org": "Hiring Our Heroes; Student Veterans of America (SVA); Home Builders Institute (HBI)",
+      "announcement_date": "2026-09-24",
+      "funding_amount_usd": null,
+      "funding_status": "not-disclosed",
+      "funding_status_detail": "not disclosed (Google.org did not disclose the size of the grants)",
+      "training_centers": [
+        {
+          "name": "Home Builders Institute military program sites (10 sites on or near military installations, including Camp Pendleton, Fort Bragg and Fort Hood; locations not further specified in sources)",
+          "city": "",
+          "state": ""
+        }
+      ],
+      "states": [],
+      "national": true,
+      "program_type": "pre-apprenticeship",
+      "program_type_detail": "pre-apprenticeship - hands-on pre-apprenticeships, career coaching and direct job placement; HBI tuition-free 12-week courses via DoD SkillBridge (cleveland.com describes 'hands-on apprenticeships'; RealtyWire specifies pre-apprenticeships)",
+      "trade_types": [
+        "electrical",
+        "pipefitting",
+        "carpentry",
+        "HVAC",
+        "plumbing",
+        "heavy equipment",
+        "construction"
+      ],
+      "workers_trained": 25000,
+      "workers_trained_type": "projected",
+      "workers_trained_detail": "Goal: help 25,000 veterans and military family members build careers in the skilled trades; no actual counts disclosed",
+      "data_center_relevance": "medium",
+      "data_center_relevance_note": "announced with Google's Ohio/Indiana data center operations lead and framed around trades demand; not tied to a specific data center site",
+      "notes": "Sources do not state whether these grants fall within the June 2026 $50M Google.org commitment (init-4); funding is undisclosed, so nothing is added to totals either way. No union partner is named for the three grantees. Project manager role cited by Google.org has no trade_types match and is omitted.",
+      "source_urls": [
+        {
+          "url": "https://realtywire.com/google-org-veterans-skilled-trades-grants/",
+          "supports": "Sept 24, 2026 announcement; grantees Hiring Our Heroes, SVA, HBI; 25,000 goal; grant size not disclosed; pre-apprenticeships; HBI 10 military-installation sites"
+        },
+        {
+          "url": "https://www.cleveland.com/advanceindustry/2026/09/google-commits-to-training-25000-veterans-in-skilled-trades-careers.html",
+          "supports": "Google commits to helping 25,000 veterans and military family members into skilled trades; trades named include electrician, HVAC, plumber, pipefitter, equipment operator"
+        }
+      ]
+    }
+  ],
+  "updated_ids": [
+    "init-7",
+    "init-15"
+  ],
+  "new_states_requiring_regional_impact_entry": []
+}
