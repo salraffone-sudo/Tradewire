@@ -1,6 +1,6 @@
 window.DATASET = window.DATASET || {};
 var __DATASET_TMP = {
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-10-01",
   "total_disclosed_funding_usd": 266110000,
   "total_committed_funding_usd": 266110000,
   "total_pledged_funding_usd": 0,
@@ -30,7 +30,7 @@ var __DATASET_TMP = {
   ],
   "methodology": "Every value in this dataset was taken from a page fetched during research on 2026-08-24. Values that could not be confirmed from a fetched page are written as 'n.a.'. Hyperscalers covered: Microsoft, Google, Meta, AWS/Amazon, Apple, Oracle/OpenAI, Equinix, Digital Realty, Vantage, plus BlackRock as a closely related AI-infrastructure investor.",
   "workers_actual": 56020,
-  "workers_projected": 422700,
+  "workers_projected": 447700,
   "regional_impact": [
     {
       "code": "VA",
@@ -762,10 +762,10 @@ var __DATASET_TMP = {
       ],
       "workers_trained": 5000,
       "workers_trained_type": "projected",
-      "workers_trained_detail": "Goal: 'thousands' of workers; approximately 5,000 people initially enrolled in the month-long course per NYT-derived reporting; first cohort began hands-on training in Ohio and Indiana (actual, no size disclosed)",
+      "workers_trained_detail": "Goal: 'thousands' of workers; approximately 5,000 people initially enrolled in the month-long course per NYT-derived reporting; first cohort began hands-on training in Ohio and Indiana (actual, no size disclosed) | Update 2026-09-20 (Fox News): a Meta spokesperson said 277 students had already graduated in Ohio and Indiana; academy expects about 300 graduates per month across programs (projected).",
       "data_center_relevance": "high",
       "data_center_relevance_note": "built to supply Meta's AI data center buildout; graduates receive guaranteed full-time offers from general contractors working on Meta's data center construction",
-      "notes": "Business Insider reported the program as '$250 million'; every primary and wire source fetched states $115 million as the first-year investment, so $115M is used.",
+      "notes": "Business Insider reported the program as '$250 million'; every primary and wire source fetched states $115 million as the first-year investment, so $115M is used. | 2026-10 update: Houston general construction program with ABC / Construction & Maintenance Education Foundation (4-week, NCCER credential) scheduled to begin Nov. 2; additional Louisiana program to start in November; fiber technician program (with CBRE) launched in July in Indianapolis and Columbus, first class graduated in August. workers_trained left at the existing projected figure; the 277 actual graduates are recorded in the detail only to avoid mixing types.",
       "source_urls": [
         {
           "url": "https://about.fb.com/news/2026/06/americas-workforce-academy-free-skilled-trade-training/",
@@ -794,6 +794,10 @@ var __DATASET_TMP = {
         {
           "url": "https://swacca.org/meta-nabtu-announce-skilled-trades-partnership-for-ai-infrastructure-buildout/",
           "supports": "America's Workforce Academy will work with NABTU's Registered Apprenticeship programs; $115 million Workforce Academy partnership with ABC and CBRE; Meta's Future Is For Everyone Fund will invest in workers and communities supporting its AI infrastructure buildout"
+        },
+        {
+          "url": "https://www.foxnews.com/politics/watch-exclusive-look-blue-collar-workforce-fueling-americas-ai-boom",
+          "supports": "Sept 20, 2026: 277 graduates in OH/IN; ~300/month expected; Houston program begins Nov. 2; Louisiana program in November"
         }
       ]
     },
@@ -1194,7 +1198,7 @@ var __DATASET_TMP = {
       "workers_trained_detail": "Project expected to employ more than 2,500 tradespeople and apprentices (projected)",
       "data_center_relevance": "high",
       "data_center_relevance_note": "the agreement governs construction of the Stargate 'The Barn' AI data center campus and is the first data center built under the NABTU-OpenAI MOU",
-      "notes": "This is a project labor / apprenticeship-utilization agreement rather than a funded training program.",
+      "notes": "This is a project labor / apprenticeship-utilization agreement rather than a funded training program. | 2026-10 update: Oracle reported on Sept 28, 2026 that the project reached one million union craft hours with more than 2,000 skilled tradespeople currently building The Barn (electricians, welders, equipment operators, carpenters, ironworkers, plumbers); 2,500+ union construction jobs still the build-phase projection.",
       "source_urls": [
         {
           "url": "https://nabtu.org/press_releases/north-americas-building-trades-unions-announce-data-center-agreement/",
@@ -1203,6 +1207,10 @@ var __DATASET_TMP = {
         {
           "url": "https://finance.yahoo.com/technology/ai/articles/ai-companies-spending-265-million-173148687.html",
           "supports": "The OpenAI facility under construction in Saline Township, Michigan is drawing hundreds of electricians and has been called the single largest investment ever made in Michigan"
+        },
+        {
+          "url": "https://www.oracle.com/news/announcement/blog/one-million-union-craft-hours-building-michigans-future-2026-09-28/",
+          "supports": "Sept 28, 2026: one million union craft hours; more than 2,000 tradespeople on site; 2,500+ union construction jobs; all 14 affiliated trade unions"
         }
       ]
     },
@@ -1312,6 +1320,53 @@ var __DATASET_TMP = {
         {
           "url": "https://www.digitalrealty.com/about/newsroom/press-releases/30191/digital-realty-expands-talent-development-opportunities-for-operations-workforce-through-partnership-with-dcd-academy",
           "supports": "May 6, 2026 press release: Digital Realty expands talent development opportunities for its operations workforce through a partnership with DCD Academy; no funding, states, trades, program type or worker numbers stated"
+        }
+      ]
+    },
+    {
+      "id": "init-19",
+      "company": "Google",
+      "company_short": "Google",
+      "program_name": "Google.org skilled trades commitment for veterans and military families (25,000 goal)",
+      "partner_org": "Hiring Our Heroes; Student Veterans of America (SVA); Home Builders Institute (HBI)",
+      "announcement_date": "2026-09-24",
+      "funding_amount_usd": null,
+      "funding_status": "not-disclosed",
+      "funding_status_detail": "not disclosed (Google.org did not disclose the size of the grants)",
+      "training_centers": [
+        {
+          "name": "Home Builders Institute military program sites (10 sites on or near military installations, including Camp Pendleton, Fort Bragg and Fort Hood; locations not further specified in sources)",
+          "city": "",
+          "state": ""
+        }
+      ],
+      "states": [],
+      "national": true,
+      "program_type": "pre-apprenticeship",
+      "program_type_detail": "pre-apprenticeship - hands-on pre-apprenticeships, career coaching and direct job placement; HBI tuition-free 12-week courses via DoD SkillBridge (cleveland.com describes 'hands-on apprenticeships'; RealtyWire specifies pre-apprenticeships)",
+      "trade_types": [
+        "electrical",
+        "pipefitting",
+        "carpentry",
+        "HVAC",
+        "plumbing",
+        "heavy equipment",
+        "construction"
+      ],
+      "workers_trained": 25000,
+      "workers_trained_type": "projected",
+      "workers_trained_detail": "Goal: help 25,000 veterans and military family members build careers in the skilled trades; no actual counts disclosed",
+      "data_center_relevance": "medium",
+      "data_center_relevance_note": "announced with Google's Ohio/Indiana data center operations lead and framed around trades demand; not tied to a specific data center site",
+      "notes": "Sources do not state whether these grants fall within the June 2026 $50M Google.org commitment (init-4); funding is undisclosed, so nothing is added to totals either way. No union partner is named for the three grantees. Project manager role cited by Google.org has no trade_types match and is omitted.",
+      "source_urls": [
+        {
+          "url": "https://realtywire.com/google-org-veterans-skilled-trades-grants/",
+          "supports": "Sept 24, 2026 announcement; grantees Hiring Our Heroes, SVA, HBI; 25,000 goal; grant size not disclosed; pre-apprenticeships; HBI 10 military-installation sites"
+        },
+        {
+          "url": "https://www.cleveland.com/advanceindustry/2026/09/google-commits-to-training-25000-veterans-in-skilled-trades-careers.html",
+          "supports": "Google commits to helping 25,000 veterans and military family members into skilled trades; trades named include electrician, HVAC, plumber, pipefitter, equipment operator"
         }
       ]
     }
