@@ -1,6 +1,6 @@
 window.DATASET = window.DATASET || {};
 var __DATASET_TMP = {
-  "last_updated": "2026-10-01",
+  "last_updated": "2026-11-01",
   "total_disclosed_funding_usd": 266110000,
   "total_committed_funding_usd": 266110000,
   "total_pledged_funding_usd": 0,
@@ -26,7 +26,9 @@ var __DATASET_TMP = {
     "AWS Mississippi $250,000 InCommunities Fund and $200,000 equipment/curriculum donation (community/K-12 education)",
     "AWS $2 million Eastern Oregon community contribution",
     "Google $15M Virginia Energy Impact Fund (energy affordability)",
-    "Vantage $175M Port Washington water/sewer infrastructure investment"
+    "Vantage $175M Port Washington water/sewer infrastructure investment",
+    "Amazon Built Together $1B+ over five years (multi-purpose community framework: education, job training, energy, water, local projects; no trades-specific breakdown)",
+    "BlackRock Future Builders national RFP grants of over $13M (Oct 2026; part of the $100M commitment already counted)"
   ],
   "methodology": "Every value in this dataset was taken from a page fetched during research on 2026-08-24. Values that could not be confirmed from a fetched page are written as 'n.a.'. Hyperscalers covered: Microsoft, Google, Meta, AWS/Amazon, Apple, Oracle/OpenAI, Equinix, Digital Realty, Vantage, plus BlackRock as a closely related AI-infrastructure investor.",
   "workers_actual": 56020,
@@ -1107,7 +1109,7 @@ var __DATASET_TMP = {
       "company": "BlackRock",
       "company_short": "BlackRock",
       "program_name": "BlackRock Future Builders Initiative",
-      "partner_org": "The ProTech Skills Institute (IBEW-NECA electrical training ALLIANCE); Independent Electrical Contractors (IEC) of Dallas; Texas State Technical College (TSTC); Dallas College / Dallas College Foundation; North America's Building Trades Unions (separate AI Infrastructure Partnership workforce agreement)",
+      "partner_org": "The ProTech Skills Institute (IBEW-NECA electrical training ALLIANCE); Independent Electrical Contractors (IEC) of Dallas; Texas State Technical College (TSTC); Dallas College / Dallas College Foundation; North America's Building Trades Unions (separate AI Infrastructure Partnership workforce agreement); 2026 national RFP grantees: Canton Electrical JATC (OH); Goodwill Arkansas (AR); Goodwill of Middle Georgia and the CSRA (GA); Greater Sarasota Chamber of Commerce Foundation (FL); Heavy Metal Summer Experience (national); Helmets to Hardhats (national); Iron Workers International (TX); Louisiana Parole Project (LA); Mitchell Technical College Foundation (SD); National Veterans Transition Services REBOOT (CA); NC Business Committee for Education with Careers Electric (NC); Nontraditional Employment for Women (NY); The Regional Development Corporation (NM); Sacramento Area Electrical JATC, Alameda County Electrical JATC and San Joaquin Electrical Training Institute (CA); University at Buffalo Business & Entrepreneur Partnerships (NY)",
       "announcement_date": "2026-03-11 (initiative launch); 2026-05-06 (first Texas grants)",
       "funding_amount_usd": 100000000,
       "funding_status": "committed",
@@ -1135,7 +1137,17 @@ var __DATASET_TMP = {
         }
       ],
       "states": [
-        "TX"
+        "TX",
+        "OH",
+        "AR",
+        "GA",
+        "FL",
+        "LA",
+        "SD",
+        "CA",
+        "NC",
+        "NY",
+        "NM"
       ],
       "national": true,
       "program_type": "both",
@@ -1143,14 +1155,15 @@ var __DATASET_TMP = {
       "trade_types": [
         "electrical",
         "plumbing",
-        "HVAC"
+        "HVAC",
+        "iron/steel"
       ],
       "workers_trained": 12000,
       "workers_trained_type": "projected",
-      "workers_trained_detail": "Goal: more than 12,000 Texans trained for electrical careers; national goal of reaching 50,000 workers over five years",
+      "workers_trained_detail": "Goal: more than 12,000 Texans trained for electrical careers; national goal of reaching 50,000 workers over five years | 2026-10-01 national RFP: grants will help more than 5,400 individuals across 26 states (goal; not added to workers_trained to avoid overlap with the 50,000 national goal).",
       "data_center_relevance": "high",
       "data_center_relevance_note": "funding is explicitly aimed at the skilled-trades pipeline for AI/data center infrastructure, with the Texas grants tied to BlackRock's Texas data centers",
-      "notes": "Included as a closely related non-hyperscaler AI infrastructure investor commitment. Fortune/ENR reporting of the March 11, 2026 launch ($100M over five years, 50,000 workers) was seen in search results; the 50,000-worker figure is supported here by the fetched aggregate reporting context rather than the BlackRock release.",
+      "notes": "Included as a closely related non-hyperscaler AI infrastructure investor commitment. Fortune/ENR reporting of the March 11, 2026 launch ($100M over five years, 50,000 workers) was seen in search results; the 50,000-worker figure is supported here by the fetched aggregate reporting context rather than the BlackRock release. | 2026-11 update: On Oct 1, 2026 BlackRock announced over $13 million to 15 organizations from its national RFP; per-grant amounts not disclosed. This money is part of the $100M Future Builders commitment already counted, so nothing is added to totals. Canada (CAD$15M, Sept 2026) and Germany (EUR 15M, Oct 19, 2026) programs are outside US scope and not included.",
       "source_urls": [
         {
           "url": "https://www.blackrock.com/corporate/newsroom/media/press-releases/philanthropic-skilled-trades-initiative-texas",
@@ -1163,6 +1176,10 @@ var __DATASET_TMP = {
         {
           "url": "https://swacca.org/meta-nabtu-announce-skilled-trades-partnership-for-ai-infrastructure-buildout/",
           "supports": "NABTU signed an agreement with BlackRock and the AI Infrastructure Partnership on workforce planning for the AI infrastructure project pipeline of BlackRock portfolio companies, focused on expanding registered apprenticeship utilization and using responsible contractors committed to project labor agreements"
+        },
+        {
+          "url": "https://www.blackrock.com/corporate/newsroom/media/press-releases/blackrock-future-builders-nationwide-rfp-winners",
+          "supports": "Oct 1, 2026: over $13M to 15 national RFP grantees; 5,400+ individuals across 26 states; grantee list with states; 50,000-worker five-year goal"
         }
       ]
     },
@@ -1367,6 +1384,49 @@ var __DATASET_TMP = {
         {
           "url": "https://www.cleveland.com/advanceindustry/2026/09/google-commits-to-training-25000-veterans-in-skilled-trades-careers.html",
           "supports": "Google commits to helping 25,000 veterans and military family members into skilled trades; trades named include electrician, HVAC, plumber, pipefitter, equipment operator"
+        }
+      ]
+    },
+    {
+      "id": "init-20",
+      "company": "AWS",
+      "company_short": "AWS",
+      "program_name": "Amazon Built Together: Modular Training Centers and free community college in data center communities",
+      "partner_org": "Local community colleges (agreements with 26 colleges reported in the works; none named); construction partners (unnamed)",
+      "announcement_date": "2026-10-02",
+      "funding_amount_usd": null,
+      "funding_status": "not-disclosed",
+      "funding_status_detail": "not disclosed for trades training specifically: Built Together is \"more than $1 billion over five years\" across education, job training, energy affordability, water and local projects with no breakdown; Amazon told GeekWire it expects \"more than $100 million up front into community college endowments and roughly another $100 million into expanding its training centers\" (approximate, not counted)",
+      "training_centers": [],
+      "states": [],
+      "national": true,
+      "program_type": "not-disclosed",
+      "program_type_detail": "not labelled an apprenticeship - free skilled-trades certification programs of 4 to 16 weeks at Modular Training Centers \"with direct pathways to employment at Amazon and our construction partners\", plus free community college certificates/associate degrees",
+      "trade_types": [
+        "electrical",
+        "HVAC",
+        "fiber",
+        "IT",
+        "manufacturing"
+      ],
+      "workers_trained": null,
+      "workers_trained_type": "not-disclosed",
+      "workers_trained_detail": "Goals, not counted: up to 100,000 learners prepared annually through training centers by end of 2028 (annual rate); 300,000+ students connected to free community college over five years (includes non-trades fields). Each MTC trains approximately 2,000-4,000 learners per year. Existing programs: over 10,000 learners and educators participating across 15 data center regions (programs not named; includes educators).",
+      "data_center_relevance": "high",
+      "data_center_relevance_note": "Modular Training Centers sit on or near Amazon data center sites and include simulated data halls, mechanical galleries and outside-plant yards (fiber vaults, utility poles, heavy machinery)",
+      "notes": "3 MTCs operating, 6 in development, 16 more planned (network of 25); no center or college named. Communities named as examples: St. Joseph County IN, Montgomery County MO, Loudoun County VA, Madison County MS, Morrow County OR - not listed as training-site states because no training location is tied to them. No union or apprenticeship involvement is mentioned. Related to but distinct from init-10/11/12 (existing AWS programs, not referenced on these pages). The $1B+ total is recorded in excluded_from_total.",
+      "source_urls": [
+        {
+          "url": "https://www.aboutamazon.com/news/company-news/amazon-data-centers-built-together",
+          "supports": "Built Together announcement: $1B+ over five years in addition to existing activity; MTC details (4-16 week certifications, equipment, 3 operating/6 in development/16 planned); 100,000 learners annually by end of 2028; trades named; 10,000+ current learners and educators"
+        },
+        {
+          "url": "https://sustainability.aboutamazon.com/builttogether",
+          "supports": "Announcement dated October 2, 2026; 300,000+ students free community college goal; network of 25 modular training centers; eligible fields list"
+        },
+        {
+          "url": "https://www.geekwire.com/2026/amazon-pledges-1b-to-data-center-communities-warns-that-local-opposition-threatens-u-s-ai-lead/",
+          "supports": "Amazon's approximate split: $100M+ community college endowments and ~$100M for training-center expansion; agreements with 26 colleges in the works"
         }
       ]
     }
