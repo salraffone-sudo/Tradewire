@@ -48,7 +48,8 @@
   "updated_ids": [
     "init-14"
   ],
-  "new_states_requiring_regional_impact_entry": [
+  "new_states_requiring_regional_impact_entry": [],
+  "regional_impact_added": [
     "AR",
     "CA",
     "FL",

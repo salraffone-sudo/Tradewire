@@ -225,6 +225,46 @@ var __DATASET_TMP = {
         "https://datacenters.atmeta.com/be-pro-be-proud/",
         "https://datacenters.atmeta.com/investing-in-people/"
       ]
+    },
+    {
+      "code": "AR",
+      "name": "Arkansas",
+      "driver": "BlackRock Future Builders' 2026 national grants fund Goodwill Arkansas to move adults into skilled-trades training and jobs. No hyperscaler training program in the dataset is based in Arkansas yet.",
+      "sources": [
+        "https://www.blackrock.com/corporate/newsroom/media/press-releases/blackrock-future-builders-nationwide-rfp-winners"
+      ]
+    },
+    {
+      "code": "CA",
+      "name": "California",
+      "driver": "BlackRock Future Builders' 2026 national grants back three union electrical training programs (Sacramento Area Electrical JATC, Alameda County Electrical JATC, San Joaquin Electrical Training Institute) plus National Veterans Transition Services' REBOOT program for veterans entering the trades.",
+      "sources": [
+        "https://www.blackrock.com/corporate/newsroom/media/press-releases/blackrock-future-builders-nationwide-rfp-winners"
+      ]
+    },
+    {
+      "code": "FL",
+      "name": "Florida",
+      "driver": "BlackRock Future Builders' 2026 national grants fund the Greater Sarasota Chamber of Commerce Foundation's skilled-trades workforce effort. No hyperscaler training program in the dataset is based in Florida yet.",
+      "sources": [
+        "https://www.blackrock.com/corporate/newsroom/media/press-releases/blackrock-future-builders-nationwide-rfp-winners"
+      ]
+    },
+    {
+      "code": "NY",
+      "name": "New York",
+      "driver": "BlackRock Future Builders' 2026 national grants fund Nontraditional Employment for Women (NEW), which prepares women for union construction careers, and University at Buffalo Business & Entrepreneur Partnerships' skilled-trades workforce program.",
+      "sources": [
+        "https://www.blackrock.com/corporate/newsroom/media/press-releases/blackrock-future-builders-nationwide-rfp-winners"
+      ]
+    },
+    {
+      "code": "SD",
+      "name": "South Dakota",
+      "driver": "BlackRock Future Builders' 2026 national grants fund the Mitchell Technical College Foundation's skilled-trades training. No hyperscaler training program in the dataset is based in South Dakota yet.",
+      "sources": [
+        "https://www.blackrock.com/corporate/newsroom/media/press-releases/blackrock-future-builders-nationwide-rfp-winners"
+      ]
     }
   ],
   "initiatives": [
