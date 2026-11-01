@@ -229,7 +229,7 @@ var __DATASET_TMP = {
     {
       "code": "AR",
       "name": "Arkansas",
-      "driver": "BlackRock Future Builders' 2026 national grants fund Goodwill Arkansas to move adults into skilled-trades training and jobs. No hyperscaler training program in the dataset is based in Arkansas yet.",
+      "driver": "First-round grantee of BlackRock Future Builders' $25M national skilled-trades RFP (Oct 2026): Goodwill Arkansas. No hyperscaler training program in the dataset is based here yet.",
       "sources": [
         "https://www.blackrock.com/corporate/newsroom/media/press-releases/blackrock-future-builders-nationwide-rfp-winners"
       ]
@@ -237,7 +237,7 @@ var __DATASET_TMP = {
     {
       "code": "CA",
       "name": "California",
-      "driver": "BlackRock Future Builders' 2026 national grants back three union electrical training programs (Sacramento Area Electrical JATC, Alameda County Electrical JATC, San Joaquin Electrical Training Institute) plus National Veterans Transition Services' REBOOT program for veterans entering the trades.",
+      "driver": "First-round grantees of BlackRock Future Builders' $25M national skilled-trades RFP (Oct 2026): Sacramento Area Electrical JATC, Alameda County Electrical JATC, San Joaquin Electrical Training Institute and National Veterans Transition Services' REBOOT program.",
       "sources": [
         "https://www.blackrock.com/corporate/newsroom/media/press-releases/blackrock-future-builders-nationwide-rfp-winners"
       ]
@@ -245,7 +245,7 @@ var __DATASET_TMP = {
     {
       "code": "FL",
       "name": "Florida",
-      "driver": "BlackRock Future Builders' 2026 national grants fund the Greater Sarasota Chamber of Commerce Foundation's skilled-trades workforce effort. No hyperscaler training program in the dataset is based in Florida yet.",
+      "driver": "First-round grantee of BlackRock Future Builders' $25M national skilled-trades RFP (Oct 2026): Greater Sarasota Chamber of Commerce Foundation. No hyperscaler training program in the dataset is based here yet.",
       "sources": [
         "https://www.blackrock.com/corporate/newsroom/media/press-releases/blackrock-future-builders-nationwide-rfp-winners"
       ]
@@ -253,7 +253,7 @@ var __DATASET_TMP = {
     {
       "code": "NY",
       "name": "New York",
-      "driver": "BlackRock Future Builders' 2026 national grants fund Nontraditional Employment for Women (NEW), which prepares women for union construction careers, and University at Buffalo Business & Entrepreneur Partnerships' skilled-trades workforce program.",
+      "driver": "First-round grantees of BlackRock Future Builders' $25M national skilled-trades RFP (Oct 2026): Nontraditional Employment for Women and University at Buffalo Business & Entrepreneur Partnerships. No hyperscaler training program in the dataset is based here yet.",
       "sources": [
         "https://www.blackrock.com/corporate/newsroom/media/press-releases/blackrock-future-builders-nationwide-rfp-winners"
       ]
@@ -261,7 +261,7 @@ var __DATASET_TMP = {
     {
       "code": "SD",
       "name": "South Dakota",
-      "driver": "BlackRock Future Builders' 2026 national grants fund the Mitchell Technical College Foundation's skilled-trades training. No hyperscaler training program in the dataset is based in South Dakota yet.",
+      "driver": "First-round grantee of BlackRock Future Builders' $25M national skilled-trades RFP (Oct 2026): Mitchell Technical College Foundation, serving South Dakota and the surrounding region. No hyperscaler training program in the dataset is based here yet.",
       "sources": [
         "https://www.blackrock.com/corporate/newsroom/media/press-releases/blackrock-future-builders-nationwide-rfp-winners"
       ]
