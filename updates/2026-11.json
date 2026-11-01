@@ -1,0 +1,59 @@
+{
+  "run_date": "2026-11-01",
+  "new": [
+    {
+      "id": "init-20",
+      "company": "AWS",
+      "company_short": "AWS",
+      "program_name": "Amazon Built Together: Modular Training Centers and free community college in data center communities",
+      "partner_org": "Local community colleges (agreements with 26 colleges reported in the works; none named); construction partners (unnamed)",
+      "announcement_date": "2026-10-02",
+      "funding_amount_usd": null,
+      "funding_status": "not-disclosed",
+      "funding_status_detail": "not disclosed for trades training specifically: Built Together is \"more than $1 billion over five years\" across education, job training, energy affordability, water and local projects with no breakdown; Amazon told GeekWire it expects \"more than $100 million up front into community college endowments and roughly another $100 million into expanding its training centers\" (approximate, not counted)",
+      "training_centers": [],
+      "states": [],
+      "national": true,
+      "program_type": "not-disclosed",
+      "program_type_detail": "not labelled an apprenticeship - free skilled-trades certification programs of 4 to 16 weeks at Modular Training Centers \"with direct pathways to employment at Amazon and our construction partners\", plus free community college certificates/associate degrees",
+      "trade_types": [
+        "electrical",
+        "HVAC",
+        "fiber",
+        "IT",
+        "manufacturing"
+      ],
+      "workers_trained": null,
+      "workers_trained_type": "not-disclosed",
+      "workers_trained_detail": "Goals, not counted: up to 100,000 learners prepared annually through training centers by end of 2028 (annual rate); 300,000+ students connected to free community college over five years (includes non-trades fields). Each MTC trains approximately 2,000-4,000 learners per year. Existing programs: over 10,000 learners and educators participating across 15 data center regions (programs not named; includes educators).",
+      "data_center_relevance": "high",
+      "data_center_relevance_note": "Modular Training Centers sit on or near Amazon data center sites and include simulated data halls, mechanical galleries and outside-plant yards (fiber vaults, utility poles, heavy machinery)",
+      "notes": "3 MTCs operating, 6 in development, 16 more planned (network of 25); no center or college named. Communities named as examples: St. Joseph County IN, Montgomery County MO, Loudoun County VA, Madison County MS, Morrow County OR - not listed as training-site states because no training location is tied to them. No union or apprenticeship involvement is mentioned. Related to but distinct from init-10/11/12 (existing AWS programs, not referenced on these pages). The $1B+ total is recorded in excluded_from_total.",
+      "source_urls": [
+        {
+          "url": "https://www.aboutamazon.com/news/company-news/amazon-data-centers-built-together",
+          "supports": "Built Together announcement: $1B+ over five years in addition to existing activity; MTC details (4-16 week certifications, equipment, 3 operating/6 in development/16 planned); 100,000 learners annually by end of 2028; trades named; 10,000+ current learners and educators"
+        },
+        {
+          "url": "https://sustainability.aboutamazon.com/builttogether",
+          "supports": "Announcement dated October 2, 2026; 300,000+ students free community college goal; network of 25 modular training centers; eligible fields list"
+        },
+        {
+          "url": "https://www.geekwire.com/2026/amazon-pledges-1b-to-data-center-communities-warns-that-local-opposition-threatens-u-s-ai-lead/",
+          "supports": "Amazon's approximate split: $100M+ community college endowments and ~$100M for training-center expansion; agreements with 26 colleges in the works"
+        }
+      ]
+    }
+  ],
+  "updated_ids": [
+    "init-14"
+  ],
+  "new_states_requiring_regional_impact_entry": [],
+  "regional_impact_added": [
+    "AR",
+    "CA",
+    "FL",
+    "NY",
+    "SD"
+  ]
+}
