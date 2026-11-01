@@ -387,7 +387,8 @@ var __DATASET_TMP = {
         },
         {
           "url": "https://www.dmacc.edu/west/microsoft-data-center.html",
-          "supports": "Microsoft Datacenter Academy at DMACC West Des Moines, IA; Microsoft providing $60,000 in student scholarships; equipment donation; infrastructure cabling, copper and fiber optic testing"
+          "supports": "Microsoft Datacenter Academy at DMACC West Des Moines, IA; Microsoft providing $60,000 in student scholarships; equipment donation; infrastructure cabling, copper and fiber optic testing | Note: this link no longer functions (returns 404 as of the Oct 1, 2026 link check). Retained as the original citation until a replacement source is published.",
+          "link_status": "dead"
         },
         {
           "url": "https://cvcc.edu/cvcc-receives-microsoft-grant/",
@@ -1100,7 +1101,8 @@ var __DATASET_TMP = {
         },
         {
           "url": "https://www.dmacc.edu/west/microsoft-data-center.html",
-          "supports": "Central Iowa data center context: Microsoft operates two West Des Moines datacenters with a third planned, Facebook operates in Altoona and 'Apple plans to build one near Waukee' - the Datacenter Academy is a Microsoft, not Apple, program"
+          "supports": "Central Iowa data center context: Microsoft operates two West Des Moines datacenters with a third planned, Facebook operates in Altoona and 'Apple plans to build one near Waukee' - the Datacenter Academy is a Microsoft, not Apple, program | Note: this link no longer functions (returns 404 as of the Oct 1, 2026 link check). Retained as the original citation until a replacement source is published.",
+          "link_status": "dead"
         }
       ]
     },

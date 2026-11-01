@@ -8,3 +8,5 @@ init-20,needs_review,funding_amount_usd,null,"Amazon told GeekWire roughly $100M
 init-20,needs_review,workers_trained,null,"100,000 learners/yr by 2028 is an annual-rate goal; left null - decide whether to record",https://www.aboutamazon.com/news/company-news/amazon-data-centers-built-together,2026-10-02,2026-11-01
 n.a.,needs_review,scope,,"Oracle Project Jupiter (NM): 1,200+ jobs created, $994M+ in-state contracts (Oct 23, 2026) - jobs/contracts, not training; not added",https://www.oracle.com/data-centers/,2026-10-23,2026-11-01
 n.a.,needs_review,scope,,"BlackRock Future Builders Germany EUR 15M (Oct 19, 2026) - outside US scope",https://www.blackrock.com/corporate/newsroom/media/press-releases,2026-10-19,2026-11-01
+init-2,update,source_urls (dmacc.edu),,added dead-link note and link_status=dead; retained pending replacement,https://www.dmacc.edu/west/microsoft-data-center.html,2026-10-01,2026-11-01
+init-13,update,source_urls (dmacc.edu),,added dead-link note and link_status=dead; retained pending replacement,https://www.dmacc.edu/west/microsoft-data-center.html,2026-10-01,2026-11-01
